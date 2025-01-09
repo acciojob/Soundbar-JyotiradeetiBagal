@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#ae34eb;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height: 100vh;
+}
+
+#buttons{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	
+    
+}
+
+.btn, .stop{
+	background-color:#5f2096;
+	color:whitesmoke;
+	width:100%;
+	border-radius:2px;
+	padding:15px;
+	margin:15px;
+	border:none;
+}
